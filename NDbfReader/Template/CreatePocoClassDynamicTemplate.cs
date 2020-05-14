@@ -23,6 +23,7 @@ namespace NDbfReaderEx.Template
                     /*FIELDNAMES*/ 
                   };
 
+    #pragma warning disable 414, CS3021
     [CLSCompliant(false)]  
     public int _recNo_ { get; private set; }
 
